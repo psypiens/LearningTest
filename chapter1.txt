@@ -1,9 +1,0 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac odio tempor orci dapibus. Magna eget est lorem ipsum dolor sit amet consectetur adipiscing. Nibh ipsum consequat nisl vel pretium lectus quam id leo.
-
-Comandos de git
-
-- git init
-- git status
-- git add nombredelarchivo
-- git add .
-- git commit -m "Mensaje del Commit"

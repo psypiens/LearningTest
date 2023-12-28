@@ -1,0 +1,14 @@
+
+git init: Inicia un nuevo repositorio de Git en el directorio actual o convierte un directorio existente en un repositorio de Git.
+
+git status: Muestra el estado actual del repositorio, incluyendo los cambios realizados, archivos no rastreados y archivos listos para ser confirmados.
+
+git add nombredelarchivo: Agrega un archivo específico al área de preparación (staging), indicando que se debe incluir en el próximo commit.
+
+git add .: Agrega todos los archivos modificados y no rastreados al área de preparación, preparándolos para el próximo commit.
+
+git commit -m "Mensaje del Commit": Crea un nuevo commit con los cambios en el área de preparación y asigna un mensaje descriptivo que explica los cambios realizados.
+
+git diff nombredelarchivo: Muestra las diferencias entre el archivo actual y la última versión confirmada, resaltando las líneas que han sido modificadas.
+
+git checkout nombredelarchivo: Descarta los cambios locales no confirmados en un archivo específico, restaurando la versión más reciente confirmada. También se utiliza para cambiar entre ramas o commits.

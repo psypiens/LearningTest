@@ -3,3 +3,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Comandos de git
 
 - git init
+- git status
+- git add nombredelarchivo
+- git add .
+- git commit -m "Mensaje del Commit"

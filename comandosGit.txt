@@ -12,3 +12,7 @@ git commit -m "Mensaje del Commit": Crea un nuevo commit con los cambios en el �
 git diff nombredelarchivo: Muestra las diferencias entre el archivo actual y la última versión confirmada, resaltando las líneas que han sido modificadas.
 
 git checkout nombredelarchivo: Descarta los cambios locales no confirmados en un archivo específico, restaurando la versión más reciente confirmada. También se utiliza para cambiar entre ramas o commits.
+
+git remote add origin <url>
+
+git push -u <remote name> <branch name>

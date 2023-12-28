@@ -1,0 +1,11 @@
+- Pull Request (Solicitud de extracción):
+Un pull request es una funcionalidad de GitHub que permite a un colaborador proponer cambios en un repositorio. 
+Después de realizar cambios en una rama de su propio fork del repositorio, el colaborador puede enviar una solicitud para fusionar esos cambios en la rama principal del repositorio original. 
+Esto facilita la revisión del código por parte de otros colaboradores y la integración de nuevas características o correcciones de errores.
+
+-Forking (Bifurcación):
+Forking en GitHub implica crear una copia independiente (fork) de un repositorio en tu cuenta personal. 
+Esta copia es una versión completa del repositorio original y se almacena en tu cuenta de GitHub. 
+Después de bifurcar un repositorio, puedes realizar cambios en tu propia copia del repositorio sin afectar al repositorio original. 
+Esto es útil para contribuir a proyectos de código abierto, donde puedes hacer cambios en tu fork y luego enviar un pull request al repositorio original para que se consideren tus contribuciones. 
+Forking permite una colaboración descentralizada y la implementación de mejoras sin la necesidad de permisos de escritura directos en el repositorio original.

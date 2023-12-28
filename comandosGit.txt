@@ -29,8 +29,18 @@ Renombra la rama actual a "main". Este comando se utiliza comúnmente después d
 - git push -u <remote name> <branch name>
 Sube los cambios locales al remoto especificado. El argumento "-u" establece la conexión entre la rama local y la rama remota, estableciendo la rama remota como rama de seguimiento de la rama local. Esto es útil para futuros comandos "git push" y "git pull", ya que Git recordará la relación entre la rama local y remota
 
-- git branch <nombre branch>
+- git branch <nombre branch>:
+Crea una nueva rama (branch) con el nombre especificado. Esta rama se creará a partir de la rama actual en la que te encuentras, conservando el estado actual del código.
 
-- git branch
+- git branch:
+Muestra una lista de ramas disponibles en el repositorio. La rama actual se resalta y se indica con un asterisco (*).
 
-- git checkout <nombre branch>
+- git checkout <nombre branch>:
+Cambia al branch especificado, actualizando el directorio de trabajo con los archivos de ese branch. Se utiliza para cambiar entre ramas y trabajar en diferentes líneas de desarrollo.
+
+- git merge <nombre branch>:
+Combina los cambios de la rama especificada en la rama actual. Este comando realiza la fusión de los cambios y puede generar un nuevo commit de fusión si es necesario reconciliar diferencias entre las ramas.
+
+- :q!:
+Este comando se utiliza en el editor de texto Vim para salir del modo de edición sin guardar cambios. El : indica que se está ingresando un comando, y q! significa salir sin guardar. Este comando es útil cuando te encuentras en una situación no deseada dentro de Vim y deseas salir sin guardar.
+

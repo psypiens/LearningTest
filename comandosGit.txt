@@ -28,3 +28,5 @@ Renombra la rama actual a "main". Este comando se utiliza comúnmente después d
 
 - git push -u <remote name> <branch name>
 Sube los cambios locales al remoto especificado. El argumento "-u" establece la conexión entre la rama local y la rama remota, estableciendo la rama remota como rama de seguimiento de la rama local. Esto es útil para futuros comandos "git push" y "git pull", ya que Git recordará la relación entre la rama local y remota
+
+- git branch <nombre branch>
